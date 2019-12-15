@@ -1,0 +1,37 @@
+{
+  "name": "ts-recursion-schemes-playground",
+  "version": "1.0.0",
+  "description": "TypeScript playground for recursion schemes",
+  "main": "index.js",
+  "scripts": {
+    "ana:to-expr": "ts-node ./src/examples/ana/to-expr.ts",
+    "cata:natsum": "ts-node ./src/examples/cata/natsum.ts",
+    "cata:show": "ts-node ./src/examples/cata/show.ts",
+    "histo:coin-exchange": "ts-node ./src/examples/histo/coin-exchange.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YBogomolov/ts-recursion-schemes-playground.git"
+  },
+  "keywords": [
+    "typescript",
+    "recursion",
+    "schemes",
+    "ts",
+    "fp"
+  ],
+  "author": "Yuriy Bogomolov <yuriy.bogomolov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YBogomolov/ts-recursion-schemes-playground/issues"
+  },
+  "homepage": "https://github.com/YBogomolov/ts-recursion-schemes-playground#readme",
+  "dependencies": {
+    "@types/node": "12.12.17",
+    "fp-ts": "2.3.1",
+    "fp-ts-contrib": "0.1.8",
+    "ts-node": "8.5.4",
+    "tslint": "5.20.1",
+    "typescript": "3.7.3"
+  }
+}
